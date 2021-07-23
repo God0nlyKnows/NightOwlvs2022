@@ -2,38 +2,38 @@
 <PackageManifest Version="2.0.0"
                  xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011"
                  xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="NightOwl.97416395-DBA1-48FE-B9CA-3474533BDA58"
-              Version="1.0"
-              Language="en-US"
-              Publisher="Mateusz Kalina" />
-    <DisplayName>Night Owl</DisplayName>
-    <Description xml:space="preserve">Night Owl theme for visual studio 2022, Original Night Owl: https://github.com/sdras/night-owl-vscode-theme</Description>
-    <MoreInfo>https://github.com/God0nlyKnows/NightOwlvs2022</MoreInfo>
-    <Icon>NightOwlIcon.PNG</Icon>
-    <PreviewImage>screenshot1.png</PreviewImage>
-    <Tags>theme, NightOwl, VisualStudio2022</Tags>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,17.0)">
-      <ProductArchitecture>x86</ProductArchitecture>
-    </InstallationTarget>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-    </InstallationTarget>
-  </Installation>
-  <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP"
-                DisplayName="Microsoft .NET Framework"
-                d:Source="Manual"
-                Version="[4.5,)" />
-  </Dependencies>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor"
-                  Version="[16.0,)"
-                  DisplayName="Visual Studio core editor" />
-  </Prerequisites>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-  </Assets>
+    <Metadata>
+        <Identity Id="NightOwl.97416395-DBA1-48FE-B9CA-3474533BDA58"
+                  Version="1.0"
+                  Language="en-US"
+                  Publisher="God0nlyKnows" />
+        <DisplayName>Night Owl</DisplayName>
+        <Description xml:space="preserve">Night Owl theme for visual studio 2022, Original Night Owl: https://github.com/sdras/night-owl-vscode-theme</Description>
+        <MoreInfo>https://github.com/God0nlyKnows/NightOwlvs2022</MoreInfo>
+        <Icon>NightOwlIcon.PNG</Icon>
+        <PreviewImage>screenshot1.png</PreviewImage>
+        <Tags>theme, NightOwl, VisualStudio2022</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,17.0)">
+            <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP"
+                    DisplayName="Microsoft .NET Framework"
+                    d:Source="Manual"
+                    Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor"
+                      Version="[16.0,)"
+                      DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
 </PackageManifest>
